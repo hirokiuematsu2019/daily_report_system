@@ -4,7 +4,7 @@ import java.security.NoSuchAlgorithmException;
 
 import javax.xml.bind.DatatypeConverter;
 
-public class EncyptUtil {
+public class EncryptUtil {
     public static String getPasswordEncrypt(String plain_p,String salt){
         String ret ="";
         if(plain_p != null && !plain_p.equals("")){
@@ -18,9 +18,4 @@ public class EncyptUtil {
             }
         return ret;
         }
-
-
     }
-
-
-
